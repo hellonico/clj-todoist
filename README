@@ -4,12 +4,12 @@
 
 ## Usage
 
-'''clojure
+```clojure
 (ns clj2.core
  (:require [clj-todoist.core :as todo]))
 
-(todo/login {:email "hellonico@gmail.com" :password "cmi2r3a"})
-'''
+(todo/login {:email "nico@cloudstudio.co.jp" :password "12345"})
+```
 
 ## License
 
