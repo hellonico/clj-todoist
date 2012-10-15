@@ -4,7 +4,7 @@
 
 ## Usage
 
-```clj
+```lisp
 (ns clj2.core
  (:require [clj-todoist.core :as todo]))
 
