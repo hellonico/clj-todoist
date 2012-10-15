@@ -4,11 +4,15 @@
 
 ## Usage
 
-```lisp
+```clojure
 (ns clj2.core
  (:require [clj-todoist.core :as todo]))
 
 (todo/login {:email "nico@cloudstudio.co.jp" :password "12345"})
+
+(todo/getProjects {})
+
+(addItem {:project_id 123 :content "test item"})
 ```
 
 ## License
