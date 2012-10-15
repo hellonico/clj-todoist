@@ -4,7 +4,7 @@
 
 ## Usage
 
-```clojure
+```clj
 (ns clj2.core
  (:require [clj-todoist.core :as todo]))
 
